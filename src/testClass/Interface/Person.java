@@ -1,4 +1,4 @@
-package textClass.Interface;
+package testClass.Interface;
 
 public class Person {
     protected String Name;

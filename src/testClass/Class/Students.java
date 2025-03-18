@@ -1,6 +1,6 @@
-package textClass;
+package testClass.Class;
 
-import textClass.Interface.Person;
+import testClass.Interface.Person;
 
 public class Students extends Person {
     private int score;
