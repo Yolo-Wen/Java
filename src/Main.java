@@ -10,7 +10,6 @@ public class Main {
         reflection();
     }
 
-
     //反射示例，主要：getConstructor()、getField()、getMethod()、invoke()
     public static void reflection() throws Exception{
         Person person = new Students();
