@@ -1,10 +1,10 @@
 package testClass.Methods;
 
 public class Str_Buf {
-    private StringBuffer str = null;
+    private StringBuffer str;
     public Str_Buf(StringBuffer str){
         this.str = str;
-    };
+    }
     //get and set for str(StringBuffer)
     public StringBuffer getStr(){
         return str;
@@ -17,7 +17,6 @@ public class Str_Buf {
         //charAt() method
         System.out.println("char charAt(int index) method(返回索引处的字符): "+this.str.charAt(index));
         //capacity() method
-        int cap = str.capacity();
         System.out.println("int capacity() method(返回字符缓冲区的容量): "+this.str.capacity());
         //length() method
         System.out.println("int length() method(返回字符缓冲区中字符串的长度): "+this.str.length());
